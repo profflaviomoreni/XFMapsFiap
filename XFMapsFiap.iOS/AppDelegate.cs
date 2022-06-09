@@ -23,6 +23,7 @@ namespace XFMapsFiap.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+             Xamarin.FormsGoogleMaps.Init("AIzaSyB1RVTJJeMXhWBt-J7CxkCtlFTlG9DPLUs");
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
