@@ -4,14 +4,14 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
              x:Class="XFMapsFiap.MainPage">
 
-    <StackLayout>
-        
-        <maps:Map 
-            x:Name="MapaGoogle" 
-            MapType="Satellite" 
-            VerticalOptions="FillAndExpand" 
-            HorizontalOptions="FillAndExpand" />
-        
+    <StackLayout Padding="20">
+
+        <Button Text="Mapa Comun"></Button>
+        <Button Text="Localização"></Button>
+        <Button Text="Zoom"></Button>
+        <Button Text="Busca"></Button>
+        <Button Text="Pin"></Button>
+            
     </StackLayout>
 
 </ContentPage>
