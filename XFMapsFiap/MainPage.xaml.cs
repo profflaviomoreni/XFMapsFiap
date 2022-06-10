@@ -19,5 +19,11 @@ namespace XFMapsFiap
         {
             Navigation.PushAsync( new View.MapaComunView());
         }
+
+        private void LocalizacaoClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.LocalizacaoView());
+        }
+
     }
 }
