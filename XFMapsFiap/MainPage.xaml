@@ -10,7 +10,7 @@
         <Button Text="Localização" Clicked="LocalizacaoClicked"></Button>
         <Button Text="Zoom" Clicked="ZoomClicked"></Button>
         <Button Text="Busca" Clicked="BuscaClicked"></Button>
-        <Button Text="Pin"></Button>
+        <Button Text="Pin" Clicked="PinClicked"></Button>
             
     </StackLayout>
 

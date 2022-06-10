@@ -35,6 +35,10 @@ namespace XFMapsFiap
             Navigation.PushAsync(new View.BuscaView());
         }
 
+        private void PinClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.PinView());
+        }
 
     }
 }
