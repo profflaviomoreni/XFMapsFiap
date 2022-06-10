@@ -30,6 +30,11 @@ namespace XFMapsFiap
             Navigation.PushAsync(new View.ZoomView());
         }
 
+        private void BuscaClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.BuscaView());
+        }
+
 
     }
 }
