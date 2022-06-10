@@ -14,5 +14,10 @@ namespace XFMapsFiap
         {
             InitializeComponent();
         }
+
+        private void MapaComunClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync( new View.MapaComunView());
+        }
     }
 }

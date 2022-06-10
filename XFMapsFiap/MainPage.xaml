@@ -6,7 +6,7 @@
 
     <StackLayout Padding="20">
 
-        <Button Text="Mapa Comun"></Button>
+        <Button Text="Mapa Comun" Clicked="MapaComunClicked"></Button>
         <Button Text="Localização"></Button>
         <Button Text="Zoom"></Button>
         <Button Text="Busca"></Button>
