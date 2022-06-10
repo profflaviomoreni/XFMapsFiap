@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFMapsFiap.View.ZoomView"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             Title="Zoom">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <maps:Map x:Name="mapa" MapType="Satellite" 
+                      AbsoluteLayout.LayoutBounds="0,0,1,1" 
+                      AbsoluteLayout.LayoutFlags="All"  />
+
+            <Slider x:Name="zoomMapa" 
+                    Value="5" Minimum="0" Maximum="18"
+                    ValueChanged="ZoomChanged" 
+                    AbsoluteLayout.LayoutFlags="PositionProportional"  
+                    AbsoluteLayout.LayoutBounds=".15,.85,150,50" />
+
+            <Button Text="A" 
+                Clicked="CentralizarMapaClicked"
+                BackgroundColor="Red"
+                AbsoluteLayout.LayoutFlags="PositionProportional"  
+                AbsoluteLayout.LayoutBounds=".15,.95,40,40" />
+
+            <Button Text="Sat" 
+                Clicked="SatelitteClicked"
+                BackgroundColor="Green"
+                AbsoluteLayout.LayoutFlags="PositionProportional"  
+                AbsoluteLayout.LayoutBounds=".35,.95,40,40" />
+
+            <Button Text="Hyb" 
+                Clicked="HybridClicked"
+                BackgroundColor="Blue"
+                AbsoluteLayout.LayoutFlags="PositionProportional"  
+                AbsoluteLayout.LayoutBounds=".45,.95,40,40" />
+
+            <Button Text="Street" 
+                Clicked="StreetClicked"
+                BackgroundColor="LightYellow"
+                AbsoluteLayout.LayoutFlags="PositionProportional"  
+                AbsoluteLayout.LayoutBounds=".55,.95,40,40" />
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

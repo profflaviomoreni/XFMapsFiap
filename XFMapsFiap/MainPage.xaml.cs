@@ -25,5 +25,11 @@ namespace XFMapsFiap
             Navigation.PushAsync(new View.LocalizacaoView());
         }
 
+        private void ZoomClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new View.ZoomView());
+        }
+
+
     }
 }

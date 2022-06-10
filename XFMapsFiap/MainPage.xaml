@@ -8,7 +8,7 @@
 
         <Button Text="Mapa Comun" Clicked="MapaComunClicked"></Button>
         <Button Text="Localização" Clicked="LocalizacaoClicked"></Button>
-        <Button Text="Zoom"></Button>
+        <Button Text="Zoom" Clicked="ZoomClicked"></Button>
         <Button Text="Busca"></Button>
         <Button Text="Pin"></Button>
             
